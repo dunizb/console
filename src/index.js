@@ -19,8 +19,8 @@ const consoleConfig = {
   dayOne: '万物之中，希望至美，新婚快乐',
   funExp: '🚗 🚕 🚙 🚌 🚓 🚛  🚚 🚐 超级驾校，让招生创收更简单',
   Market: '欢迎访问 https://www.dunizb.com',
-  // bgimg: 'https://ws1.sinaimg.cn/large/683aa04fly1fynnu7dsgyg205k05k0ve.gif'
-  bgimg: './avatar.gif'
+  bgimg: 'https://ws1.sinaimg.cn/large/683aa04fly1fynnu7dsgyg205k05k0ve.gif'
+  // bgimg: './avatar.gif'
 }
 const consoleInfo = (function (consoleConfig) {
   if (count > 20) {
