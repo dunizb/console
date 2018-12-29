@@ -12,6 +12,8 @@
  * --------------------------------------------------------------------------- *
  */
 
+const count = parseInt(Math.random() * 28, 10) + 1;
+
 const consoleConfig = {
   staff: '%c终于等到你 \n',
   dayOne: '万物之中，希望至美，新婚快乐',
@@ -21,25 +23,28 @@ const consoleConfig = {
   bgimg: './avatar.gif'
 }
 const consoleInfo = (function (consoleConfig) {
-  console.log('%c' + '' + '\n%c    ', 'color: #6190e8;', `background: url(${consoleConfig.bgimg}) no-repeat left center;font-size: 100px;`, '\n')
-  console.log(consoleConfig.staff, 'color: #6190e8;')
+  if (count > 20) {
+    console.log('%c' + '' + '\n%c    ', 'color: #6190e8;', `background: url(${consoleConfig.bgimg}) no-repeat left center;font-size: 100px;`, '\n')
+    console.log(consoleConfig.staff, 'color: #6190e8;')
+  }
   if (consoleConfig.funExp !== '') {
-    console.log('%c' + consoleConfig.funExp, 'color: #6190e8;', '\n')
+    if (count > 20) {
+      console.log('%c' + consoleConfig.funExp, 'color: #6190e8;', '\n')
+    }
   }
   if (consoleConfig.Market !== '') {
-    console.log('%c' + consoleConfig.Market + '\n%c    ', 'color: #6190e8;', '\n')
+    if (count > 20) {
+      console.log('%c' + consoleConfig.Market + '\n%c    ', 'color: #6190e8;', '\n')
+    }
   }
   if (consoleConfig.dayOne !== '') {
-    console.log('%c' + consoleConfig.dayOne, 'color: #6190e8', '\n\n')
+    if (count > 20) {
+      console.log('%c' + consoleConfig.dayOne, 'color: #6190e8', '\n\n')
+    }
   }
 }(consoleConfig))
 
-const dayer = parseInt(Math.random() * 28, 10) + 1;
-const d = new Date()
-const date = d.getDate()
-if (date === dayer) {
-  console.log(consoleInfo)
-} else {
+if (count < 20) {
   console.warn('🔞')
 }
 
