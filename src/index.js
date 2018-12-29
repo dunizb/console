@@ -17,7 +17,8 @@ const consoleConfig = {
   dayOne: '万物之中，希望至美，新婚快乐',
   funExp: '🚗 🚕 🚙 🚌 🚓 🚛  🚚 🚐 超级驾校，让招生创收更简单',
   Market: '欢迎访问 https://www.dunizb.com',
-  bgimg: require('./avatar.gif')
+  bgimg: '//ws1.sinaimg.cn/large/683aa04fly1fynnu7dsgyg205k05k0ve.gif'
+  // bgimg: require('./avatar.gif')
 }
 const consoleInfo = (function (consoleConfig) {
   console.log('%c' + '' + '\n%c    ', 'color: #6190e8;', `background: url(${consoleConfig.bgimg}) no-repeat left center;font-size: 100px;`, '\n')
