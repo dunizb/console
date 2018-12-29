@@ -6,9 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "markdown-clear": "./lib/cli.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dunizb/console.git"
