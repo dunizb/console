@@ -21,6 +21,8 @@
 ![18禁](https://ws1.sinaimg.cn/large/683aa04fly1fynp3pzb7yj2054030t8n.jpg)
 
 ## 安装与使用：
+
+### node环境
 ```
 npm install er-console
 或
@@ -30,6 +32,9 @@ yarn add er-console
 ```
 import 'er-console'
 ```
+
+### 浏览器环境
+直接引入`src/index.js`
 
 *******
 **如果你觉得喜欢，请不要吝啬点一下小星星（star）**
