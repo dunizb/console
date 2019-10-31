@@ -14,11 +14,11 @@
 
 效果举例：
 
-![效果举例：](https://ws1.sinaimg.cn/large/683aa04fly1fynpfuoucgj21280g0jv5.jpg)
+![效果举例](https://i.loli.net/2019/10/31/ntuhpRbPzBLedGT.jpg)
 
 当随机数小于20时输出18禁止图标
 
-![18禁](https://ws1.sinaimg.cn/large/683aa04fly1fynp3pzb7yj2054030t8n.jpg)
+![18禁](https://i.loli.net/2019/10/31/Upst2AK71QekyCl.jpg)
 
 ## 安装与使用：
 
